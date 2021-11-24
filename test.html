@@ -3,11 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 <body>
-<p>Hallo Welt </p>
-<table>
-<tr> </tr>
-</table>
+
+<div class="container-fluid">
+
+    <div class="jumbotron" style="background: aliceblue; padding-top: 40px; padding-bottom: 40px; margin-bottom: 20px ; text-align: center">
+        <h1>Aufgabenplaner: ToDo(Aktuelles Projekt) </h1>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-2">
+
+                <div class="card" style="width: 13rem;">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item "> <a STYLE=" color: black"  href="#">Login</a> </li>
+                        <li class="list-group-item"> <a STYLE="color: black"  href="#">Projekte</a></li>
+                        <li class="list-group-item"> <button class="btn btn-secondary dropdown-toggle" STYLE="background: ghostwhite; color: black" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" >Aktuelles Projekt</button>
+                            <ul class=" dropdown-menu" aria-labelledby="dropdownMenuButton1" style="border: ghostwhite">
+                                <li ><a class="dropdown-item" href="#">Reiter</a> </li>
+                                <li ><a class="dropdown-item" href="#">Aufgaben</a> </li>
+                                <li ><a class="dropdown-item" href="#">Mitglieder</a> </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+
+
+
+        </div>
+
+        <div class="col">
+            <div class="card">
+                <div class="card-header" style="background: aliceblue">ToDo:</div>
+                <ul class="list-group">
+                    <li class="list-group-item">HTML-Datei erstellen </li>
+                    <li class="list-group-item">CSS Datei erstellen </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card">
+                <div class="card-header" style="background: aliceblue">Erledigt:</div>
+                <ul class="list-group">
+                    <li class="list-group-item">PC eingeschaltet</li>
+                    <li class="list-group-item">Erste Übung</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card">
+                <div class="card-header" style="background: aliceblue">
+                    Verschoben
+                </div>
+                <ul class="list-group">
+                    <li class="list-group-item">Für die Uni lernen</li>
+                </ul>
+            </div>
+        </div>
+
+
+
+    </div>
+
+</div>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
